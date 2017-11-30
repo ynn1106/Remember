@@ -1,0 +1,63 @@
+section,header,article,nav{
+    display:block;
+}/*为HTML5块元素定义默认的样式，主要针对不支持其的浏览器，
+    让这些元素能够具有适当的块布局。*/
+body{
+    background-image:url(../images/bg.jpg);
+    background-attachment:fixed;
+    background-position:top left;
+    max-width:80em;
+}
+body h2{
+     margin:1em 2em 1em 0em ;
+     padding:1em 2em 1em 2em;
+}
+body header img{
+    position:left;
+}
+header nav ul{
+    width:100%;
+    overflow:hidden;
+    margin:0 1em 5%;
+}
+header nav li{
+    font-size:150%;
+    display:inline;
+}
+header nav li a{
+    display:block;
+    float:left;
+    padding:1em 2em 1em 0em;
+}
+article{
+    line-height:1.8em;
+    margin:1em 5%;
+}
+article nav li{
+    line-height:1.8em;
+}
+#imagegallery li {
+    display:inline;
+    margin:1em 2em 1em 0em;
+}
+td{
+    padding:.5em 3em;
+    margin:1em 1%;
+}
+table caption{
+    font-size:150%;
+}
+label{
+    display:block;
+}
+fieldset{
+    border:0;
+}
+form{
+    margin:1em 5%;
+}
+    
+    
+
+    
+    
