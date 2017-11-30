@@ -122,7 +122,7 @@ function preparePlaceholder() {
     if(!document.getElementById("imagegallery")) return false;
     var placeholder = document.createElement("img");
     placeholder.setAttribute("id","placeholder");
-    placeholder.setAttribute("src","images/DSC02253.JPG");
+    placeholder.setAttribute("src","../images/DSC02253.JPG");
     placeholder.setAttribute("alt","my image gallery");
     placeholder.style.position = "absolute";//设置绝对位置
     placeholder.style.left = "230px";
