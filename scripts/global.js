@@ -124,12 +124,12 @@ function preparePlaceholder() {
     placeholder.setAttribute("id","placeholder");
     placeholder.setAttribute("src","images/DSC02253.JPG");
     placeholder.setAttribute("alt","my image gallery");
-    placeholder.style.position = "absolute";//设置绝对位置
-    placeholder.style.left = "230px";
+   // placeholder.style.position = "absolute";//设置绝对位置
+   //placeholder.style.left = "230px";
     var describe = document.createElement("p");
     describe.setAttribute("id","describe");
-    describe.style.position = "absolute";
-    describe.style.left = "230px";
+    //describe.style.position = "absolute";
+    //describe.style.left = "230px";
     var desctext = document.createTextNode("Choose an image");
     describe.appendChild(desctext);
     var gallery = document.getElementById("imagegallery");
